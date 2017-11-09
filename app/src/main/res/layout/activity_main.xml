@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.starwars.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <com.example.starwars.StarWars
+        android:id="@+id/starWars2"
+        android:layout_width="336dp"
+        android:layout_height="391dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/b3"
+        app:layout_constraintLeft_toRightOf="@+id/b3"
+        app:layout_constraintRight_toLeftOf="@+id/b2"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/b3"
+        app:layout_constraintLeft_toRightOf="@+id/b1"
+        app:layout_constraintRight_toLeftOf="@+id/b4"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/b3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/b1"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/b3"
+        app:layout_constraintLeft_toRightOf="@+id/b2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+
+</android.support.constraint.ConstraintLayout>
