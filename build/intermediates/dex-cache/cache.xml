@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="060c5ac86e416b9d1c20b49e1b3953985738e281">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3d223969788bba98554fc34e9f518dec4f100e97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\f36e3ff16c7c6edf9e7c93c87f4f246b7224d3a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_89ba679ddd6e98911eb29b4bcece68f2a96680f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\c763179959d709dba90c69dc7e30ccedb7b34018\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53b91810b30e9251c144fbfe2e18391f22453ca2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_119b062dac6b56ec96f945e2386fb9359d568fc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_f2f73635286a466e030e2e3fda54c76967ff2ae5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\2d854436aef8c21c11422e934818e0d4d4bef33e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1bb11399cca6aee664f71d55d57a2e8f789b3dcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\78c30fd55d647fc1a086a287956eb9394372e406\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf6f4e65bfce550025d2b85165cd85349ab9d534\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\ebc444979039bbcdf2887497052c410628e12c91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adc139ff1444f5faadd16050c4b12ec48b6dbc42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c470803c4f39fb16fe5dff852579886c694b0557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\97bd8fce6b6c0d48f87e358f56e3714c63687b6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20b28aba35a8c859a5a500c5392a4c8801dc2964\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\a62946139bcf10acacb73d6a7a519e2ce76e9baf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_455a02c5f4e3aeb8a0b5d43969dbc5b10e37b0c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\3c249d43ee10960ae7a06ed223818371f9acda49\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfbe734c9d2ab8d5d05192d72abd2c63faaf47d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\b6e62a4bc536531ef4205844bbedd16bcd8b63a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b98cffc82f3b4c3e6a8f4b128984053c65f6389\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Tai\.android\build-cache\b87f195f414df91ad54a2c1ec992e84367b1818b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Tai\AndroidStudioProjects\StarWarTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_50dedc5f079ad29b9d7d78a738a230d0cf5c4633\classes.dex" />
+    </item>
+
+</items>

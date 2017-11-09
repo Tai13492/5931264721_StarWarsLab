@@ -7,31 +7,30 @@ import android.view.View;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.graphics.Paint.Style;
+//Tai Tantipiwatanaskul 5931264721
 
-/**
- * Created by ANON on 11/7/2017.
- */
+
 
 public class StarWars extends View implements Runnable {
-    // required constructor
-    static int t1 = 0;
+
+    static int time1 = 0;
     static int t2 = 0;
     static int dt2 = 0;
-    static int sp = 25;
+    static int speed = 25;
     static String text ="A long time ago in a galaxy,far,far away...";
-    static  Boolean r = true;
-    static  Boolean s = true;
+    static  Boolean result = true;
+    static  Boolean status = true;
 
 
 
 
-    static Thread T1, T2;
+    static Thread thread1, thread2;
 
     public StarWars(Context context, AttributeSet attrs) {
         super(context, attrs);
-        if (T1 == null) {
-            T1 = new Thread(this);
-            T1.start();
+        if (thread1 == null) {
+            thread1 = new Thread(this);
+            thread1.start();
         }
 }
 
@@ -40,12 +39,12 @@ public class StarWars extends View implements Runnable {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        if (t1 <= 125) {
+        if (time1 <= 125) {
             canvas.drawColor(Color.BLACK);
             Paint paint = new Paint();
             paint.setColor(Color.WHITE);
-            paint.setTextSize(50 - t1 / 4);
-            drawTextCentered(text, getWidth()/2 ,getHeight()/2 - 7 * t1,paint, canvas);
+            paint.setTextSize(52 - time1 / 4);
+            drawTextCentered(text, getWidth()/2 ,getHeight()/2 - 7 * time1,paint, canvas);
         } else {
             canvas.drawColor(Color.BLACK);
             Paint paint = new Paint();
@@ -57,21 +56,21 @@ public class StarWars extends View implements Runnable {
             paint.setStyle(Style.FILL);
             Path wallpath = new Path();
             wallpath.reset();
-            wallpath.moveTo(600 - t2, 100 + t2);
+            wallpath.moveTo(602 - t2, 100 + t2);
             wallpath.lineTo(675 - t2, 0 + t2);
-            wallpath.lineTo(699 - t2, 50 + t2);
-            wallpath.lineTo(600 - t2, 100 + t2);
+            wallpath.lineTo(697 - t2, 50 + t2);
+            wallpath.lineTo(598 - t2, 100 + t2);
             canvas.drawPath(wallpath, paint);
             wallpath.reset();
-            wallpath.moveTo(800 - t2,-100 + t2);
+            wallpath.moveTo(802 - t2,-100 + t2);
             wallpath.lineTo(975 - t2, -400 + t2);
-            wallpath.lineTo(999 - t2, -250 + t2);
+            wallpath.lineTo(997 - t2, -250 + t2);
             wallpath.lineTo(800 - t2, -100 + t2);
             canvas.drawPath(wallpath, paint1);
             wallpath.reset();
             wallpath.moveTo(800 - dt2, -100 + dt2);
             wallpath.lineTo(825 - dt2, -125 + dt2);
-            wallpath.lineTo(830 - dt2, -115 + dt2);
+            wallpath.lineTo(828 - dt2, -115 + dt2);
             wallpath.lineTo(800 - dt2, -100 + dt2);
             canvas.drawPath(wallpath, paint2);
         }
@@ -84,17 +83,17 @@ public class StarWars extends View implements Runnable {
     }
     @Override
     public synchronized void run() {
-        while (Thread.currentThread() == T1) {if(r) {
-            s = true;
-            t1 += 1;
-            if (t1 > 125) {
-                    T2 = new Thread(this);
-                    T2.start();
+        while (Thread.currentThread() == thread1) {if(result) {
+            status = true;
+            time1 += 1;
+            if (time1 > 125) {
+                    thread2 = new Thread(this);
+                    thread2.start();
                 break;
             }
             invalidate();
             try {
-                Thread.sleep(sp);
+                Thread.sleep(speed);
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -103,24 +102,23 @@ public class StarWars extends View implements Runnable {
         }
             invalidate();
         }
-        while (Thread.currentThread() == T2) {if(r) {
-            t2 += 1;
-            dt2 += 2;
+        while (Thread.currentThread() == thread2) {if(result) {
+            if (t2 < 999) {
+                t2 += 1;
+                dt2 += 2;
+            }
             if (dt2 > 150 + t2) {
                 dt2 = t2;
                 dt2 = t2;
             }
             invalidate();
-            if (t2 > 999) {
-                break;
-            }
-            if (!s) {
-                T1 = new Thread(this);
-                T1.start();
+            if (!status) {
+                thread1 = new Thread(this);
+                thread1.start();
                 break;
             }
             try {
-                Thread.sleep(sp);
+                Thread.sleep(speed);
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
